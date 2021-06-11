@@ -1,0 +1,49 @@
+
+.navbar img{
+    width: 80px;
+    position: relative;
+    top: 15px;
+    
+}
+
+#oneLi{
+    color: red;
+}
+
+.navbar{
+    height: 80px;
+    background-color: black;
+    color: white;
+}
+
+.navbar{
+    margin-bottom: 0px;
+}
+
+#firstUl li{
+    position: relative;
+    top: 20px;
+
+}
+
+#firstUl{
+display:flex;
+list-style:none;
+margin-top: -43px;
+ margin-left: 96px;
+
+
+}
+
+#firstUl li {
+ margin: 5px;
+padding: 10px;
+
+}
+
+/* start style the main in the body part */
+
+ main img{
+    width: 90vw;
+    height: 90vh;
+}
