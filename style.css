@@ -1,49 +1,89 @@
-
-.navbar img{
-    width: 80px;
-    position: relative;
-    top: 15px;
-    
+.navbar img {
+  width: 80px;
+  position: relative;
+  top: 15px;
 }
 
-#oneLi{
-    color: red;
+#oneLi {
+  color: red;
 }
 
-.navbar{
-    height: 80px;
-    background-color: black;
-    color: white;
+.navbar {
+  height: 80px;
+  background-color: black;
+  color: white;
 }
 
-.navbar{
-    margin-bottom: 0px;
-}
-
-#firstUl li{
-    position: relative;
-    top: 20px;
-
-}
-
-#firstUl{
-display:flex;
-list-style:none;
-margin-top: -43px;
- margin-left: 96px;
-
-
+.navbar {
+  margin-bottom: 0px;
 }
 
 #firstUl li {
- margin: 5px;
-padding: 10px;
+  position: relative;
+  top: 20px;
+}
 
+#firstUl {
+  display: flex;
+  list-style: none;
+  margin-top: -43px;
+  margin-left: 96px;
+}
+
+#firstUl li {
+  margin: 5px;
+  padding: 10px;
 }
 
 /* start style the main in the body part */
 
- main img{
-    width: 90vw;
-    height: 90vh;
+main img {
+  width: 90vw;
+  height: 90vh;
+}
+
+@media only screen and (min-width: 1200px){
+  .eventImg {
+   display: flex;
+   background-color: lightpink;
+
+  }
+
+  #one {
+    margin: 15px;
+  }
+
+  #two {
+    margin: 15px;
+  }
+
+  #three {
+    margin: 15px;
+  }
+
+  #four {
+    margin: 15px;
+  }
+
+} 
+ @media only screen and (min-width:750)and(max-width:960px)   {
+
+     .eventImg{
+     display: inline-block;
+    column-count: 2;
+     background-color: lightcoral;
+     }
+    }
+     
+  
+  
+ @media only screen and (min-width:500px)  and (max-width:768px){
+  .eventImg {
+      display: grid;
+      grid-template-columns: 1fr;
+    
+  }
+  
+  
+
 }
